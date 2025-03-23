@@ -1,0 +1,28 @@
+[
+ {
+  "InstFile" : "C:/Gowin/Projetos/vga/vga/src/top.vhd",
+  "InstLine" : 4,
+  "InstName" : "TOP",
+  "ModuleFile" : "C:/Gowin/Projetos/vga/vga/src/top.vhd",
+  "ModuleLine" : 4,
+  "ModuleName" : "TOP",
+  "SubInsts" : [
+   {
+    "InstFile" : "C:/Gowin/Projetos/vga/vga/src/top.vhd",
+    "InstLine" : 53,
+    "InstName" : "chip_pll",
+    "ModuleFile" : "C:/Gowin/Projetos/vga/vga/src/gowin_rpll/gowin_rpll.vhd",
+    "ModuleLine" : 12,
+    "ModuleName" : "Gowin_rPLL"
+   },
+   {
+    "InstFile" : "C:/Gowin/Projetos/vga/vga/src/top.vhd",
+    "InstLine" : 61,
+    "InstName" : "lcd_inst",
+    "ModuleFile" : "C:/Gowin/Projetos/vga/vga/src/lcd_demo.vhd",
+    "ModuleLine" : 13,
+    "ModuleName" : "lcd_demo"
+   }
+  ]
+ }
+]
