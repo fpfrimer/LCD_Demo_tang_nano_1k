@@ -1,0 +1,34 @@
+GowinSynthesis start
+Running parser ...
+Analyzing VHDL file 'C:\Users\fpfir\OneDrive\Documentos\GitHub\LCD_Demo_tang_nano_1k\Demo2_moving_square\src\gowin_rpll\gowin_rpll.vhd'
+Analyzing entity 'gowin_rpll'("C:\Users\fpfir\OneDrive\Documentos\GitHub\LCD_Demo_tang_nano_1k\Demo2_moving_square\src\gowin_rpll\gowin_rpll.vhd":12)
+Analyzing architecture 'behavioral'("C:\Users\fpfir\OneDrive\Documentos\GitHub\LCD_Demo_tang_nano_1k\Demo2_moving_square\src\gowin_rpll\gowin_rpll.vhd":20)
+Analyzing VHDL file 'C:\Users\fpfir\OneDrive\Documentos\GitHub\LCD_Demo_tang_nano_1k\Demo2_moving_square\src\lcd_demo.vhd'
+Analyzing entity 'lcd_demo'("C:\Users\fpfir\OneDrive\Documentos\GitHub\LCD_Demo_tang_nano_1k\Demo2_moving_square\src\lcd_demo.vhd":13)
+Analyzing architecture 'rtl'("C:\Users\fpfir\OneDrive\Documentos\GitHub\LCD_Demo_tang_nano_1k\Demo2_moving_square\src\lcd_demo.vhd":26)
+Analyzing VHDL file 'C:\Users\fpfir\OneDrive\Documentos\GitHub\LCD_Demo_tang_nano_1k\Demo2_moving_square\src\top.vhd'
+Analyzing entity 'top'("C:\Users\fpfir\OneDrive\Documentos\GitHub\LCD_Demo_tang_nano_1k\Demo2_moving_square\src\top.vhd":4)
+Analyzing architecture 'behavioral'("C:\Users\fpfir\OneDrive\Documentos\GitHub\LCD_Demo_tang_nano_1k\Demo2_moving_square\src\top.vhd":21)
+Processing 'TOP(Behavioral)'("C:\Users\fpfir\OneDrive\Documentos\GitHub\LCD_Demo_tang_nano_1k\Demo2_moving_square\src\top.vhd":4)
+Processing 'Gowin_rPLL(Behavioral)'("C:\Users\fpfir\OneDrive\Documentos\GitHub\LCD_Demo_tang_nano_1k\Demo2_moving_square\src\gowin_rpll\gowin_rpll.vhd":12)
+Processing 'lcd_demo(rtl)'("C:\Users\fpfir\OneDrive\Documentos\GitHub\LCD_Demo_tang_nano_1k\Demo2_moving_square\src\lcd_demo.vhd":13)
+NOTE  (EX0101) : Current top module is "TOP"
+[5%] Running netlist conversion ...
+Running device independent optimization ...
+[10%] Optimizing Phase 0 completed
+[15%] Optimizing Phase 1 completed
+[25%] Optimizing Phase 2 completed
+Running inference ...
+[30%] Inferring Phase 0 completed
+[40%] Inferring Phase 1 completed
+[50%] Inferring Phase 2 completed
+[55%] Inferring Phase 3 completed
+Running technical mapping ...
+[60%] Tech-Mapping Phase 0 completed
+[65%] Tech-Mapping Phase 1 completed
+[75%] Tech-Mapping Phase 2 completed
+[80%] Tech-Mapping Phase 3 completed
+[90%] Tech-Mapping Phase 4 completed
+[95%] Generate netlist file "C:\Users\fpfir\OneDrive\Documentos\GitHub\LCD_Demo_tang_nano_1k\Demo2_moving_square\impl\gwsynthesis\vga.vg" completed
+[100%] Generate report file "C:\Users\fpfir\OneDrive\Documentos\GitHub\LCD_Demo_tang_nano_1k\Demo2_moving_square\impl\gwsynthesis\vga_syn.rpt.html" completed
+GowinSynthesis finish

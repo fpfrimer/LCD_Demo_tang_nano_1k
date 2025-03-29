@@ -1,0 +1,28 @@
+[
+ {
+  "InstFile" : "C:/Users/fpfir/OneDrive/Documentos/GitHub/LCD_Demo_tang_nano_1k/Demo2_moving_square/src/top.vhd",
+  "InstLine" : 4,
+  "InstName" : "TOP",
+  "ModuleFile" : "C:/Users/fpfir/OneDrive/Documentos/GitHub/LCD_Demo_tang_nano_1k/Demo2_moving_square/src/top.vhd",
+  "ModuleLine" : 4,
+  "ModuleName" : "TOP",
+  "SubInsts" : [
+   {
+    "InstFile" : "C:/Users/fpfir/OneDrive/Documentos/GitHub/LCD_Demo_tang_nano_1k/Demo2_moving_square/src/top.vhd",
+    "InstLine" : 53,
+    "InstName" : "chip_pll",
+    "ModuleFile" : "C:/Users/fpfir/OneDrive/Documentos/GitHub/LCD_Demo_tang_nano_1k/Demo2_moving_square/src/gowin_rpll/gowin_rpll.vhd",
+    "ModuleLine" : 12,
+    "ModuleName" : "Gowin_rPLL"
+   },
+   {
+    "InstFile" : "C:/Users/fpfir/OneDrive/Documentos/GitHub/LCD_Demo_tang_nano_1k/Demo2_moving_square/src/top.vhd",
+    "InstLine" : 61,
+    "InstName" : "lcd_inst",
+    "ModuleFile" : "C:/Users/fpfir/OneDrive/Documentos/GitHub/LCD_Demo_tang_nano_1k/Demo2_moving_square/src/lcd_demo.vhd",
+    "ModuleLine" : 13,
+    "ModuleName" : "lcd_demo"
+   }
+  ]
+ }
+]
