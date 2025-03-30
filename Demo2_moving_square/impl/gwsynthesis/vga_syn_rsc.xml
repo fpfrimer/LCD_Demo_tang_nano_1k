@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<Module name="TOP" T_Register="27(0)" T_Lut="75(0)">
+<Module name="TOP" T_Register="65(0)" T_Alu="19(0)" T_Lut="187(0)">
  <SubModule name="chip_pll"/>
- <SubModule name="lcd_inst" Register="27" Lut="75" T_Register="27(27)" T_Lut="75(75)"/>
+ <SubModule name="lcd_inst" Register="65" Alu="19" Lut="187" T_Register="65(65)" T_Alu="19(19)" T_Lut="187(187)"/>
 </Module>

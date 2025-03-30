@@ -23,21 +23,7 @@ entity lcd_demo is
     );
 end entity;
 
-architecture rtl of lcd_demo is
-
-    -- Constantes de temporização, indica o início de cada fase dos sinais LCD
---    constant H_ACTIVE_VIDEO    :   integer := 800;
---    constant H_FRONT_PORCH     :   integer := H_ACTIVE_VIDEO + 210;
---    constant H_SYNC            :   integer := H_FRONT_PORCH + 1;
---    constant H_BACK_PORCH      :   integer := H_SYNC + 182;
---    constant H_PIXELS          :   integer := 1193;
-
-
---    constant V_ACTIVE_VIDEO    :   integer := 480;
---    constant V_FRONT_PORCH     :   integer := V_ACTIVE_VIDEO + 62;
---    constant V_SYNC            :   integer := V_FRONT_PORCH + 5;
---    constant V_BACK_PORCH      :   integer := V_SYNC + 6;
---    constant V_PIXELS          :   integer := 553;
+architecture rtl of lcd_demo is 
 
     constant H_ACTIVE_VIDEO    :   integer := 1024;
     constant H_FRONT_PORCH     :   integer := H_ACTIVE_VIDEO + 40;
@@ -100,6 +86,10 @@ architecture rtl of lcd_demo is
     signal horizontal   :   integer range 0 to H_PIXELS := 0;    -- 800 x 600 72Hz
     signal vertical     :   integer range 0 to V_PIXELS := 0;     -- 800 x 600 72Hz
     signal active       :   boolean;
+
+    signal x_pos        :   integer range 0 to H_ACTIVE_VIDEO;
+    signal y_pos        :   integer range 0 to V_ACTIVE_VIDEO;
+    signal delay_flag   :   boolean := false;
 	
     
 begin
@@ -136,9 +126,9 @@ begin
 
         if rising_edge(PixelClk) then
             draw := (others => '0');
-            quadrado(active, horizontal, vertical, H_ACTIVE_VIDEO/2-50, V_ACTIVE_VIDEO/2-25, 60, red, draw);
-            quadrado(active, horizontal, vertical, H_ACTIVE_VIDEO/2, V_ACTIVE_VIDEO/2, 60, green, draw);
-            quadrado(active, horizontal, vertical, H_ACTIVE_VIDEO/2+50, V_ACTIVE_VIDEO/2+25, 60, blue, draw);
+            
+            quadrado(active, horizontal, vertical, x_pos, y_pos, 60, green, draw);
+            
 
             if horizontal = 0 or horizontal = 1024-1 or vertical = 0 or vertical = 600-1 then
                 draw := (others => '1');
@@ -149,6 +139,41 @@ begin
             LCD_G <= draw(10 downto 5);  -- green
             LCD_B <= draw(4 downto 0);  -- blue
         end if;
+    end process;
+
+    process(PixelClk)
+        variable x  :   integer range 0 to H_ACTIVE_VIDEO := H_ACTIVE_VIDEO/2;
+        variable y  :   integer range 0 to V_ACTIVE_VIDEO := V_ACTIVE_VIDEO/2;
+        variable vx :   integer range -1 to 1 := 1;
+        variable vy :   integer range -1 to 1 := 1;
+    begin
+        if rising_edge(PixelClk) then
+            if delay_flag then
+                x := x + vx;
+                y := y + vy;
+                if x = 0 + 30 or x = H_ACTIVE_VIDEO - 30 then
+                    vx := - vx;
+                end if;
+                if y = 0 + 30 or y = V_ACTIVE_VIDEO - 30 then
+                    vy := - vy;
+                end if;
+            end if;
+        end if;
+        x_pos <= x;
+        y_pos <= y;
+    end process;
+
+    process(PixelClk)
+        variable i : integer range 0 to 2**16 -1 := 0;
+    begin
+        if rising_edge(PixelClk) then
+            delay_flag <= false;
+            i := i + 1;
+            if i = 0 then
+                delay_flag <= true;
+            end if;
+        end if;
+
     end process;
     
     
