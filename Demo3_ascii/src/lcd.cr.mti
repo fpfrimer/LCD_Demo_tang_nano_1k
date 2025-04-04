@@ -1,0 +1,23 @@
+D:/repos/LCD_Demo_tang_nano_1k/Demo3_ascii/src/font_rom.vhd {1 {vcom -work work -2002 -explicit -stats=none D:/repos/LCD_Demo_tang_nano_1k/Demo3_ascii/src/font_rom.vhd
+Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package NUMERIC_STD
+-- Compiling entity font_rom
+-- Compiling architecture arch of font_rom
+
+} {} {}} D:/repos/LCD_Demo_tang_nano_1k/Demo3_ascii/src/lcd_demo.vhd {0 {vcom -work work -2002 -explicit -stats=none D:/repos/LCD_Demo_tang_nano_1k/Demo3_ascii/src/lcd_demo.vhd
+Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package NUMERIC_STD
+-- Compiling entity lcd_demo
+-- Compiling architecture rtl of lcd_demo
+-- Loading entity font_rom
+** Error: D:/repos/LCD_Demo_tang_nano_1k/Demo3_ascii/src/lcd_demo.vhd(181): (vcom-1030) Subprogram "incrementa" signal formal "contador" bounds do not match those of actual.
+** Error: D:/repos/LCD_Demo_tang_nano_1k/Demo3_ascii/src/lcd_demo.vhd(182): (vcom-1030) Subprogram "incrementa" signal formal "contador" bounds do not match those of actual.
+** Error: D:/repos/LCD_Demo_tang_nano_1k/Demo3_ascii/src/lcd_demo.vhd(247): VHDL Compiler exiting
+
+} {10.0 13.0} {}}

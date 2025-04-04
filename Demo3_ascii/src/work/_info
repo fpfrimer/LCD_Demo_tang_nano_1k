@@ -1,0 +1,73 @@
+m255
+K4
+z2
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+dC:/Users/fpfir/OneDrive/Documentos/GitHub/turma2022-2_vhdl/Aulas/Aula010
+Efont_rom
+Z0 w1743716014
+Z1 DPx4 ieee 11 numeric_std 0 22 :ASDNFgHXf_ih3J@9F3Ze1
+Z2 DPx3 std 6 textio 0 22 zE1`LPoLg^DX3Oz^4Fj1K3
+Z3 DPx4 ieee 14 std_logic_1164 0 22 eNV`TJ_GofJTzYa?f<@Oe1
+Z4 dD:/repos/LCD_Demo_tang_nano_1k/Demo3_ascii/src
+Z5 8D:/repos/LCD_Demo_tang_nano_1k/Demo3_ascii/src/font_rom.vhd
+Z6 FD:/repos/LCD_Demo_tang_nano_1k/Demo3_ascii/src/font_rom.vhd
+l0
+L12
+VV;;IYJ^VWnf6[E8I^:T^g3
+!s100 SaSH:oLHk@h[0[nb?F`am1
+Z7 OV;C;10.5b;63
+32
+Z8 !s110 1743718073
+!i10b 1
+Z9 !s108 1743718073.000000
+Z10 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|D:/repos/LCD_Demo_tang_nano_1k/Demo3_ascii/src/font_rom.vhd|
+Z11 !s107 D:/repos/LCD_Demo_tang_nano_1k/Demo3_ascii/src/font_rom.vhd|
+!i113 1
+Z12 o-work work -2002 -explicit
+Z13 tExplicit 1 CvgOpt 0
+Aarch
+R1
+R2
+R3
+DEx4 work 8 font_rom 0 22 V;;IYJ^VWnf6[E8I^:T^g3
+l2210
+L20
+VgIG[l]JNNa:]]T8S>XXPi0
+!s100 jm40oEg[Q8M[eBU2GVgDz1
+R7
+32
+R8
+!i10b 1
+R9
+R10
+R11
+!i113 1
+R12
+R13
+Elcd_demo
+w1743718126
+R1
+R2
+R3
+R4
+8D:/repos/LCD_Demo_tang_nano_1k/Demo3_ascii/src/lcd_demo.vhd
+FD:/repos/LCD_Demo_tang_nano_1k/Demo3_ascii/src/lcd_demo.vhd
+l0
+L13
+VbE><lCg?O?Ajhgkh5e:dK3
+!s100 T`Xj4]e@OU]J_RneBUcO`1
+R7
+32
+!s110 1743718132
+!i10b 1
+!s108 1743718132.000000
+!s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|D:/repos/LCD_Demo_tang_nano_1k/Demo3_ascii/src/lcd_demo.vhd|
+!s107 D:/repos/LCD_Demo_tang_nano_1k/Demo3_ascii/src/lcd_demo.vhd|
+!i113 1
+R12
+R13

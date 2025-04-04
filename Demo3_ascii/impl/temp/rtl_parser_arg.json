@@ -1,0 +1,33 @@
+{
+ "Device" : "GW1NZ-1",
+ "Files" : [
+  {
+   "Library" : "work",
+   "Path" : "D:/repos/LCD_Demo_tang_nano_1k/Demo3_ascii/src/font_rom.vhd",
+   "Type" : "vhdl"
+  },
+  {
+   "Library" : "work",
+   "Path" : "D:/repos/LCD_Demo_tang_nano_1k/Demo3_ascii/src/gowin_rpll/gowin_rpll.vhd",
+   "Type" : "vhdl"
+  },
+  {
+   "Library" : "work",
+   "Path" : "D:/repos/LCD_Demo_tang_nano_1k/Demo3_ascii/src/lcd_demo.vhd",
+   "Type" : "vhdl"
+  },
+  {
+   "Library" : "work",
+   "Path" : "D:/repos/LCD_Demo_tang_nano_1k/Demo3_ascii/src/top.vhd",
+   "Type" : "vhdl"
+  }
+ ],
+ "IncludePath" : [
+
+ ],
+ "LoopLimit" : 2000,
+ "ResultFile" : "D:/repos/LCD_Demo_tang_nano_1k/Demo3_ascii/impl/temp/rtl_parser.result",
+ "Top" : "",
+ "VerilogStd" : "verilog_2001",
+ "VhdlStd" : "vhdl_93"
+}

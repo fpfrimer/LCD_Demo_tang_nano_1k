@@ -1,0 +1,125 @@
+<?xml version="1" encoding="UTF-8"?>
+<GAO_CONFIG>
+    <Version>3.0</Version>
+    <Mode>Standard</Mode>
+    <AoCore index="0" sample_clock="CLK_PIX" trig_type="0" storage_depth="128" window_num="1" capture_amount="128" implementation="0" trigger_pos="0" module_name="TOP" force_trigger_by_falling_edge="false" capture_init_data_enabled="false">
+        <SignalList>
+            <Bus capture_enable="true" name="lcd_inst/font_addr[10:0]">
+                <Signal>lcd_inst/font_addr[10]</Signal>
+                <Signal>lcd_inst/font_addr[9]</Signal>
+                <Signal>lcd_inst/font_addr[8]</Signal>
+                <Signal>lcd_inst/font_addr[7]</Signal>
+                <Signal>lcd_inst/font_addr[6]</Signal>
+                <Signal>lcd_inst/font_addr[5]</Signal>
+                <Signal>lcd_inst/font_addr[4]</Signal>
+                <Signal>lcd_inst/font_addr[3]</Signal>
+                <Signal>lcd_inst/font_addr[2]</Signal>
+                <Signal>lcd_inst/font_addr[1]</Signal>
+                <Signal>lcd_inst/font_addr[0]</Signal>
+            </Bus>
+            <Bus capture_enable="true" name="lcd_inst/font_data[7:0]">
+                <Signal>lcd_inst/font_data[7]</Signal>
+                <Signal>lcd_inst/font_data[6]</Signal>
+                <Signal>lcd_inst/font_data[5]</Signal>
+                <Signal>lcd_inst/font_data[4]</Signal>
+                <Signal>lcd_inst/font_data[3]</Signal>
+                <Signal>lcd_inst/font_data[2]</Signal>
+                <Signal>lcd_inst/font_data[1]</Signal>
+                <Signal>lcd_inst/font_data[0]</Signal>
+            </Bus>
+            <Bus capture_enable="true" name="lcd_inst/horizontal[10:0]">
+                <Signal>lcd_inst/horizontal[10]</Signal>
+                <Signal>lcd_inst/horizontal[9]</Signal>
+                <Signal>lcd_inst/horizontal[8]</Signal>
+                <Signal>lcd_inst/horizontal[7]</Signal>
+                <Signal>lcd_inst/horizontal[6]</Signal>
+                <Signal>lcd_inst/horizontal[5]</Signal>
+                <Signal>lcd_inst/horizontal[4]</Signal>
+                <Signal>lcd_inst/horizontal[3]</Signal>
+                <Signal>lcd_inst/horizontal[2]</Signal>
+                <Signal>lcd_inst/horizontal[1]</Signal>
+                <Signal>lcd_inst/horizontal[0]</Signal>
+            </Bus>
+            <Bus capture_enable="true" name="lcd_inst/vertical[9:0]">
+                <Signal>lcd_inst/vertical[9]</Signal>
+                <Signal>lcd_inst/vertical[8]</Signal>
+                <Signal>lcd_inst/vertical[7]</Signal>
+                <Signal>lcd_inst/vertical[6]</Signal>
+                <Signal>lcd_inst/vertical[5]</Signal>
+                <Signal>lcd_inst/vertical[4]</Signal>
+                <Signal>lcd_inst/vertical[3]</Signal>
+                <Signal>lcd_inst/vertical[2]</Signal>
+                <Signal>lcd_inst/vertical[1]</Signal>
+                <Signal>lcd_inst/vertical[0]</Signal>
+            </Bus>
+        </SignalList>
+        <Triggers>
+            <Trigger index="0">
+                <SignalList>
+                    <Bus restorename="lcd_inst/horizontal[10:0]">
+                        <Signal>lcd_inst/horizontal[10]</Signal>
+                        <Signal>lcd_inst/horizontal[9]</Signal>
+                        <Signal>lcd_inst/horizontal[8]</Signal>
+                        <Signal>lcd_inst/horizontal[7]</Signal>
+                        <Signal>lcd_inst/horizontal[6]</Signal>
+                        <Signal>lcd_inst/horizontal[5]</Signal>
+                        <Signal>lcd_inst/horizontal[4]</Signal>
+                        <Signal>lcd_inst/horizontal[3]</Signal>
+                        <Signal>lcd_inst/horizontal[2]</Signal>
+                        <Signal>lcd_inst/horizontal[1]</Signal>
+                        <Signal>lcd_inst/horizontal[0]</Signal>
+                    </Bus>
+                    <Bus restorename="lcd_inst/vertical[9:0]">
+                        <Signal>lcd_inst/vertical[9]</Signal>
+                        <Signal>lcd_inst/vertical[8]</Signal>
+                        <Signal>lcd_inst/vertical[7]</Signal>
+                        <Signal>lcd_inst/vertical[6]</Signal>
+                        <Signal>lcd_inst/vertical[5]</Signal>
+                        <Signal>lcd_inst/vertical[4]</Signal>
+                        <Signal>lcd_inst/vertical[3]</Signal>
+                        <Signal>lcd_inst/vertical[2]</Signal>
+                        <Signal>lcd_inst/vertical[1]</Signal>
+                        <Signal>lcd_inst/vertical[0]</Signal>
+                    </Bus>
+                </SignalList>
+            </Trigger>
+            <Trigger index="1"/>
+            <Trigger index="2"/>
+            <Trigger index="3"/>
+            <Trigger index="4"/>
+            <Trigger index="5"/>
+            <Trigger index="6"/>
+            <Trigger index="7"/>
+            <Trigger index="8"/>
+            <Trigger index="9"/>
+            <Trigger index="10"/>
+            <Trigger index="11"/>
+            <Trigger index="12"/>
+            <Trigger index="13"/>
+            <Trigger index="14"/>
+            <Trigger index="15"/>
+        </Triggers>
+        <MatchUnits>
+            <MatchUnit index="0" enabled="1" match_type="1" counter_enable="0" counter_width="2" counter="2" countinuous="0" func="0" value0="000001100100011001010" value1="000000000000000000000" trigger="0"/>
+            <MatchUnit index="1" enabled="0" match_type="0" counter_enable="0" counter_width="2" counter="2" countinuous="0" func="0" value0="" value1=""/>
+            <MatchUnit index="2" enabled="0" match_type="0" counter_enable="0" counter_width="2" counter="2" countinuous="0" func="0" value0="" value1=""/>
+            <MatchUnit index="3" enabled="0" match_type="0" counter_enable="0" counter_width="2" counter="2" countinuous="0" func="0" value0="" value1=""/>
+            <MatchUnit index="4" enabled="0" match_type="0" counter_enable="0" counter_width="2" counter="2" countinuous="0" func="0" value0="" value1=""/>
+            <MatchUnit index="5" enabled="0" match_type="0" counter_enable="0" counter_width="2" counter="2" countinuous="0" func="0" value0="" value1=""/>
+            <MatchUnit index="6" enabled="0" match_type="0" counter_enable="0" counter_width="2" counter="2" countinuous="0" func="0" value0="" value1=""/>
+            <MatchUnit index="7" enabled="0" match_type="0" counter_enable="0" counter_width="2" counter="2" countinuous="0" func="0" value0="" value1=""/>
+            <MatchUnit index="8" enabled="0" match_type="0" counter_enable="0" counter_width="2" counter="2" countinuous="0" func="0" value0="" value1=""/>
+            <MatchUnit index="9" enabled="0" match_type="0" counter_enable="0" counter_width="2" counter="2" countinuous="0" func="0" value0="" value1=""/>
+            <MatchUnit index="10" enabled="0" match_type="0" counter_enable="0" counter_width="2" counter="2" countinuous="0" func="0" value0="" value1=""/>
+            <MatchUnit index="11" enabled="0" match_type="0" counter_enable="0" counter_width="2" counter="2" countinuous="0" func="0" value0="" value1=""/>
+            <MatchUnit index="12" enabled="0" match_type="0" counter_enable="0" counter_width="2" counter="2" countinuous="0" func="0" value0="" value1=""/>
+            <MatchUnit index="13" enabled="0" match_type="0" counter_enable="0" counter_width="2" counter="2" countinuous="0" func="0" value0="" value1=""/>
+            <MatchUnit index="14" enabled="0" match_type="0" counter_enable="0" counter_width="2" counter="2" countinuous="0" func="0" value0="" value1=""/>
+            <MatchUnit index="15" enabled="0" match_type="0" counter_enable="0" counter_width="2" counter="2" countinuous="0" func="0" value0="" value1=""/>
+        </MatchUnits>
+        <Expressions type="Static">
+            <Expression>M0</Expression>
+        </Expressions>
+    </AoCore>
+    <GAO_ID>1111100010100101</GAO_ID>
+</GAO_CONFIG>

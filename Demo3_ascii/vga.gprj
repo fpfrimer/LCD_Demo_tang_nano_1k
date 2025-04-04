@@ -1,0 +1,14 @@
+<?xml version="1" encoding="UTF-8"?>
+<!DOCTYPE gowin-fpga-project>
+<Project>
+    <Template>FPGA</Template>
+    <Version>5</Version>
+    <Device name="GW1NZ-1" pn="GW1NZ-LV1QN48C6/I5">gw1nz1-015</Device>
+    <FileList>
+        <File path="src/font_rom.vhd" type="file.vhdl" enable="1"/>
+        <File path="src/gowin_rpll/gowin_rpll.vhd" type="file.vhdl" enable="1"/>
+        <File path="src/lcd_demo.vhd" type="file.vhdl" enable="1"/>
+        <File path="src/top.vhd" type="file.vhdl" enable="1"/>
+        <File path="src/lcd.cst" type="file.cst" enable="1"/>
+    </FileList>
+</Project>
