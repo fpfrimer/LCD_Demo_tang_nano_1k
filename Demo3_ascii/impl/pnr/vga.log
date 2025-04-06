@@ -1,7 +1,7 @@
-Reading netlist file: "D:\repos\LCD_Demo_tang_nano_1k\Demo3_ascii\impl\gwsynthesis\vga.vg"
-Parsing netlist file "D:\repos\LCD_Demo_tang_nano_1k\Demo3_ascii\impl\gwsynthesis\vga.vg" completed
+Reading netlist file: "C:\Users\fpfir\OneDrive\Documentos\GitHub\LCD_Demo_tang_nano_1k\Demo3_ascii\impl\gwsynthesis\vga.vg"
+Parsing netlist file "C:\Users\fpfir\OneDrive\Documentos\GitHub\LCD_Demo_tang_nano_1k\Demo3_ascii\impl\gwsynthesis\vga.vg" completed
 Processing netlist completed
-Reading constraint file: "D:\repos\LCD_Demo_tang_nano_1k\Demo3_ascii\src\lcd.cst"
+Reading constraint file: "C:\Users\fpfir\OneDrive\Documentos\GitHub\LCD_Demo_tang_nano_1k\Demo3_ascii\src\lcd.cst"
 Physical Constraint parsed completed
 Running placement......
 [10%] Placement Phase 0 completed
@@ -20,10 +20,10 @@ Bitstream generation in progress......
 Bitstream generation completed
 Running power analysis......
 [100%] Power analysis completed
-Generate file "D:\repos\LCD_Demo_tang_nano_1k\Demo3_ascii\impl\pnr\vga.power.html" completed
-Generate file "D:\repos\LCD_Demo_tang_nano_1k\Demo3_ascii\impl\pnr\vga.pin.html" completed
-Generate file "D:\repos\LCD_Demo_tang_nano_1k\Demo3_ascii\impl\pnr\vga.rpt.html" completed
-Generate file "D:\repos\LCD_Demo_tang_nano_1k\Demo3_ascii\impl\pnr\vga.rpt.txt" completed
-Generate file "D:\repos\LCD_Demo_tang_nano_1k\Demo3_ascii\impl\pnr\vga.tr.html" completed
-Thu Apr  3 20:58:17 2025
+Generate file "C:\Users\fpfir\OneDrive\Documentos\GitHub\LCD_Demo_tang_nano_1k\Demo3_ascii\impl\pnr\vga.power.html" completed
+Generate file "C:\Users\fpfir\OneDrive\Documentos\GitHub\LCD_Demo_tang_nano_1k\Demo3_ascii\impl\pnr\vga.pin.html" completed
+Generate file "C:\Users\fpfir\OneDrive\Documentos\GitHub\LCD_Demo_tang_nano_1k\Demo3_ascii\impl\pnr\vga.rpt.html" completed
+Generate file "C:\Users\fpfir\OneDrive\Documentos\GitHub\LCD_Demo_tang_nano_1k\Demo3_ascii\impl\pnr\vga.rpt.txt" completed
+Generate file "C:\Users\fpfir\OneDrive\Documentos\GitHub\LCD_Demo_tang_nano_1k\Demo3_ascii\impl\pnr\vga.tr.html" completed
+Sun Apr  6 15:56:52 2025
 

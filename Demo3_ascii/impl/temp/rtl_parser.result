@@ -1,33 +1,33 @@
 [
  {
-  "InstFile" : "D:/repos/LCD_Demo_tang_nano_1k/Demo3_ascii/src/top.vhd",
+  "InstFile" : "C:/Users/fpfir/OneDrive/Documentos/GitHub/LCD_Demo_tang_nano_1k/Demo3_ascii/src/top.vhd",
   "InstLine" : 4,
   "InstName" : "TOP",
-  "ModuleFile" : "D:/repos/LCD_Demo_tang_nano_1k/Demo3_ascii/src/top.vhd",
+  "ModuleFile" : "C:/Users/fpfir/OneDrive/Documentos/GitHub/LCD_Demo_tang_nano_1k/Demo3_ascii/src/top.vhd",
   "ModuleLine" : 4,
   "ModuleName" : "TOP",
   "SubInsts" : [
    {
-    "InstFile" : "D:/repos/LCD_Demo_tang_nano_1k/Demo3_ascii/src/top.vhd",
+    "InstFile" : "C:/Users/fpfir/OneDrive/Documentos/GitHub/LCD_Demo_tang_nano_1k/Demo3_ascii/src/top.vhd",
     "InstLine" : 53,
     "InstName" : "chip_pll",
-    "ModuleFile" : "D:/repos/LCD_Demo_tang_nano_1k/Demo3_ascii/src/gowin_rpll/gowin_rpll.vhd",
+    "ModuleFile" : "C:/Users/fpfir/OneDrive/Documentos/GitHub/LCD_Demo_tang_nano_1k/Demo3_ascii/src/gowin_rpll/gowin_rpll.vhd",
     "ModuleLine" : 12,
     "ModuleName" : "Gowin_rPLL"
    },
    {
-    "InstFile" : "D:/repos/LCD_Demo_tang_nano_1k/Demo3_ascii/src/top.vhd",
+    "InstFile" : "C:/Users/fpfir/OneDrive/Documentos/GitHub/LCD_Demo_tang_nano_1k/Demo3_ascii/src/top.vhd",
     "InstLine" : 61,
     "InstName" : "lcd_inst",
-    "ModuleFile" : "D:/repos/LCD_Demo_tang_nano_1k/Demo3_ascii/src/lcd_demo.vhd",
+    "ModuleFile" : "C:/Users/fpfir/OneDrive/Documentos/GitHub/LCD_Demo_tang_nano_1k/Demo3_ascii/src/lcd_demo.vhd",
     "ModuleLine" : 13,
     "ModuleName" : "lcd_demo",
     "SubInsts" : [
      {
-      "InstFile" : "D:/repos/LCD_Demo_tang_nano_1k/Demo3_ascii/src/lcd_demo.vhd",
-      "InstLine" : 166,
+      "InstFile" : "C:/Users/fpfir/OneDrive/Documentos/GitHub/LCD_Demo_tang_nano_1k/Demo3_ascii/src/lcd_demo.vhd",
+      "InstLine" : 188,
       "InstName" : "FONT",
-      "ModuleFile" : "D:/repos/LCD_Demo_tang_nano_1k/Demo3_ascii/src/font_rom.vhd",
+      "ModuleFile" : "C:/Users/fpfir/OneDrive/Documentos/GitHub/LCD_Demo_tang_nano_1k/Demo3_ascii/src/font_rom.vhd",
       "ModuleLine" : 12,
       "ModuleName" : "font_rom"
      }

@@ -38,10 +38,32 @@ architecture rtl of lcd_demo is
     constant V_BACK_PORCH      :   integer := V_SYNC + 11;
     constant V_PIXELS          :   integer := 624;
 
-    -- Cores
-    constant red               :   std_logic_vector(15 downto 0) := "1111100000000000";
-    constant green             :   std_logic_vector(15 downto 0) := "0000011111100000";
-    constant blue              :   std_logic_vector(15 downto 0) := "0000000000011111";
+    -- Constantes de cores básicas
+    constant red       : std_logic_vector(15 downto 0) := "1111100000000000"; -- Vermelho puro
+    constant green     : std_logic_vector(15 downto 0) := "0000011111100000"; -- Verde puro
+    constant blue      : std_logic_vector(15 downto 0) := "0000000000011111"; -- Azul puro
+
+    -- Combinações de cores usando OR
+    constant yellow    : std_logic_vector(15 downto 0) := "1111111111100000"; -- Amarelo (Vermelho + Verde)
+    constant magenta   : std_logic_vector(15 downto 0) := "1111100000011111"; -- Magenta (Vermelho + Azul)
+    constant cyan      : std_logic_vector(15 downto 0) := "0000011111111111"; -- Ciano (Verde + Azul)
+    constant white     : std_logic_vector(15 downto 0) := "1111111111111111"; -- Branco (Vermelho + Verde + Azul)
+    constant black     : std_logic_vector(15 downto 0) := "0000000000000000"; -- Preto (nenhuma cor ativada)  
+
+    -- Define o tipo array para armazenar as cores
+    type color_array is array (natural range <>) of std_logic_vector(15 downto 0);
+
+    -- Define uma constante com as 7 cores básicas
+    -- Define uma constante com as 7 cores básicas usando as constantes já definidas
+    constant colors : color_array(0 to 6) := (
+        red,     -- Índice 0: Vermelho
+        green,   -- Índice 1: Verde
+        blue,    -- Índice 2: Azul
+        yellow,  -- Índice 3: Amarelo
+        magenta, -- Índice 4: Magenta
+        cyan,    -- Índice 5: Ciano
+        white    -- Índice 6: Branco
+    );
 
     
 
@@ -106,7 +128,7 @@ architecture rtl of lcd_demo is
                 addr <= char_to_slv(char) & std_logic_vector(to_unsigned((v - y) / font_size, 4));
                 
                 -- Verifica se o pixel original deve ser desenhado
-                if data(((x - h) / font_size) + 9 - 1) = '1' then
+                if data(((x - h) / font_size) + 8) = '1' and h >= x + 2 then
                     draw := color;
                 end if;
             end if;
@@ -158,7 +180,7 @@ architecture rtl of lcd_demo is
     constant texts      :   texts_t := ("Hello World!", "Subscribe!!!");
     signal text_index   : integer range 0 to 1 := 0;
 
-    signal random_color : std_logic_vector(15 downto 0) := "1010101010101010";
+    signal random_color : std_logic_vector(15 downto 0) := red;
 	
     
 begin
@@ -268,12 +290,17 @@ begin
     end process;
 
     process(PixelClk)
-        variable i : integer range 0 to 2**24 -1 := 0;        
+        variable i : integer range 0 to 2**24 -1 := 0;  
+        variable x : integer range 0 to 7 := 0;
     begin
         if rising_edge(PixelClk) then            
             i := i + 1;
             if i = 0 then
-                random_color <= (random_color(14 downto 0) & (random_color(15) xor random_color(10) xor random_color(8) xor random_color(0))) or "1000010000010000";
+                random_color <= colors(x);
+                x := x + 1;
+                if x = 7 then
+                    x := 0;
+                end if;
             end if;
         end if;
 

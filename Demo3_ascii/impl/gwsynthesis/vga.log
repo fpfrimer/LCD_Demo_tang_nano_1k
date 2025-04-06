@@ -1,21 +1,21 @@
 GowinSynthesis start
 Running parser ...
-Analyzing VHDL file 'D:\repos\LCD_Demo_tang_nano_1k\Demo3_ascii\src\font_rom.vhd'
-Analyzing entity 'font_rom'("D:\repos\LCD_Demo_tang_nano_1k\Demo3_ascii\src\font_rom.vhd":12)
-Analyzing architecture 'arch'("D:\repos\LCD_Demo_tang_nano_1k\Demo3_ascii\src\font_rom.vhd":20)
-Analyzing VHDL file 'D:\repos\LCD_Demo_tang_nano_1k\Demo3_ascii\src\gowin_rpll\gowin_rpll.vhd'
-Analyzing entity 'gowin_rpll'("D:\repos\LCD_Demo_tang_nano_1k\Demo3_ascii\src\gowin_rpll\gowin_rpll.vhd":12)
-Analyzing architecture 'behavioral'("D:\repos\LCD_Demo_tang_nano_1k\Demo3_ascii\src\gowin_rpll\gowin_rpll.vhd":20)
-Analyzing VHDL file 'D:\repos\LCD_Demo_tang_nano_1k\Demo3_ascii\src\lcd_demo.vhd'
-Analyzing entity 'lcd_demo'("D:\repos\LCD_Demo_tang_nano_1k\Demo3_ascii\src\lcd_demo.vhd":13)
-Analyzing architecture 'rtl'("D:\repos\LCD_Demo_tang_nano_1k\Demo3_ascii\src\lcd_demo.vhd":26)
-Analyzing VHDL file 'D:\repos\LCD_Demo_tang_nano_1k\Demo3_ascii\src\top.vhd'
-Analyzing entity 'top'("D:\repos\LCD_Demo_tang_nano_1k\Demo3_ascii\src\top.vhd":4)
-Analyzing architecture 'behavioral'("D:\repos\LCD_Demo_tang_nano_1k\Demo3_ascii\src\top.vhd":21)
-Processing 'TOP(Behavioral)'("D:\repos\LCD_Demo_tang_nano_1k\Demo3_ascii\src\top.vhd":4)
-Processing 'Gowin_rPLL(Behavioral)'("D:\repos\LCD_Demo_tang_nano_1k\Demo3_ascii\src\gowin_rpll\gowin_rpll.vhd":12)
-Processing 'lcd_demo(rtl)'("D:\repos\LCD_Demo_tang_nano_1k\Demo3_ascii\src\lcd_demo.vhd":13)
-Processing 'font_rom(arch)'("D:\repos\LCD_Demo_tang_nano_1k\Demo3_ascii\src\font_rom.vhd":12)
+Analyzing VHDL file 'C:\Users\fpfir\OneDrive\Documentos\GitHub\LCD_Demo_tang_nano_1k\Demo3_ascii\src\font_rom.vhd'
+Analyzing entity 'font_rom'("C:\Users\fpfir\OneDrive\Documentos\GitHub\LCD_Demo_tang_nano_1k\Demo3_ascii\src\font_rom.vhd":12)
+Analyzing architecture 'arch'("C:\Users\fpfir\OneDrive\Documentos\GitHub\LCD_Demo_tang_nano_1k\Demo3_ascii\src\font_rom.vhd":20)
+Analyzing VHDL file 'C:\Users\fpfir\OneDrive\Documentos\GitHub\LCD_Demo_tang_nano_1k\Demo3_ascii\src\gowin_rpll\gowin_rpll.vhd'
+Analyzing entity 'gowin_rpll'("C:\Users\fpfir\OneDrive\Documentos\GitHub\LCD_Demo_tang_nano_1k\Demo3_ascii\src\gowin_rpll\gowin_rpll.vhd":12)
+Analyzing architecture 'behavioral'("C:\Users\fpfir\OneDrive\Documentos\GitHub\LCD_Demo_tang_nano_1k\Demo3_ascii\src\gowin_rpll\gowin_rpll.vhd":20)
+Analyzing VHDL file 'C:\Users\fpfir\OneDrive\Documentos\GitHub\LCD_Demo_tang_nano_1k\Demo3_ascii\src\lcd_demo.vhd'
+Analyzing entity 'lcd_demo'("C:\Users\fpfir\OneDrive\Documentos\GitHub\LCD_Demo_tang_nano_1k\Demo3_ascii\src\lcd_demo.vhd":13)
+Analyzing architecture 'rtl'("C:\Users\fpfir\OneDrive\Documentos\GitHub\LCD_Demo_tang_nano_1k\Demo3_ascii\src\lcd_demo.vhd":26)
+Analyzing VHDL file 'C:\Users\fpfir\OneDrive\Documentos\GitHub\LCD_Demo_tang_nano_1k\Demo3_ascii\src\top.vhd'
+Analyzing entity 'top'("C:\Users\fpfir\OneDrive\Documentos\GitHub\LCD_Demo_tang_nano_1k\Demo3_ascii\src\top.vhd":4)
+Analyzing architecture 'behavioral'("C:\Users\fpfir\OneDrive\Documentos\GitHub\LCD_Demo_tang_nano_1k\Demo3_ascii\src\top.vhd":21)
+Processing 'TOP(Behavioral)'("C:\Users\fpfir\OneDrive\Documentos\GitHub\LCD_Demo_tang_nano_1k\Demo3_ascii\src\top.vhd":4)
+Processing 'Gowin_rPLL(Behavioral)'("C:\Users\fpfir\OneDrive\Documentos\GitHub\LCD_Demo_tang_nano_1k\Demo3_ascii\src\gowin_rpll\gowin_rpll.vhd":12)
+Processing 'lcd_demo(rtl)'("C:\Users\fpfir\OneDrive\Documentos\GitHub\LCD_Demo_tang_nano_1k\Demo3_ascii\src\lcd_demo.vhd":13)
+Processing 'font_rom(arch)'("C:\Users\fpfir\OneDrive\Documentos\GitHub\LCD_Demo_tang_nano_1k\Demo3_ascii\src\font_rom.vhd":12)
 NOTE  (EX0101) : Current top module is "TOP"
 [5%] Running netlist conversion ...
 Running device independent optimization ...
@@ -33,6 +33,6 @@ Running technical mapping ...
 [75%] Tech-Mapping Phase 2 completed
 [80%] Tech-Mapping Phase 3 completed
 [90%] Tech-Mapping Phase 4 completed
-[95%] Generate netlist file "D:\repos\LCD_Demo_tang_nano_1k\Demo3_ascii\impl\gwsynthesis\vga.vg" completed
-[100%] Generate report file "D:\repos\LCD_Demo_tang_nano_1k\Demo3_ascii\impl\gwsynthesis\vga_syn.rpt.html" completed
+[95%] Generate netlist file "C:\Users\fpfir\OneDrive\Documentos\GitHub\LCD_Demo_tang_nano_1k\Demo3_ascii\impl\gwsynthesis\vga.vg" completed
+[100%] Generate report file "C:\Users\fpfir\OneDrive\Documentos\GitHub\LCD_Demo_tang_nano_1k\Demo3_ascii\impl\gwsynthesis\vga_syn.rpt.html" completed
 GowinSynthesis finish
